@@ -32,13 +32,8 @@ require("code_lib")
 -- Note that the Code class can be used for any collection of block code words
 local S = Code:parse("0011010,1010110,0000011,1010101")
 
-print(C)
--- [0011010,1010110,0000011,1010101]
-
-print(C:ref())
--- [1010110,0011010,0000011,0000000]
-
-print(C:rref())
--- [1001100,0011001,0000011,0000000]
+print(C)        -- [0011010,1010110,0000011,1010101]
+print(C:ref())  -- [1010110,0011010,0000011,0000000]
+print(C:rref()) -- [1001100,0011001,0000011,0000000]
 ```
 
