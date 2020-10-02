@@ -1,7 +1,7 @@
 
 TODO:
 - More of an API write-up
-- More LaTeX examples
+- Using with LaTeX
 
 # Introduction
 
