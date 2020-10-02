@@ -14,7 +14,15 @@ Script | Rough description
 # Using with Lua
 
 To use `code_lib` in Lua, only Lua is required.
-Simply call `require("code_lib")` to expose `Word` and `Code`
+Simply call `require("code_lib")` to expose `Word` and `Code`.
+
+Things to note:
+- To `require("code_lib")`, the `code_lib.lua` file needs to be in the same directory as where
+you are working:
+    - If you're writing a Lua file at `/usr/home/You/test.lua`,
+    then there needs to be `/usr/home/You/code_lib.lua`.
+    - If you're in a Lua REPL at `/usr/home/You/`,
+    then there needs to be `/usr/home/You/code_lib.lua`.
 
 ## Examples
 
